@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Speed Race';
+    src: url('font/SPEEDRACE\ PERSONAL\ USE\ ONLY!.ttf');
+}
+
+:root{
+    --color: #55D6F0;
+    --color2: #4677BA;
+    --color3: #5E5E5E;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: linear-gradient(to top left, #000000, #8a8a8a);
+}
+
+
+main{
+    text-align: center;
+    max-width: 500px;
+}
+
+main h1{
+    font-size: 2.em;
+    color: #000000;
+    font-family: 'Speed Race';
+}
+
+main h2{
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 1.2em;
+}
